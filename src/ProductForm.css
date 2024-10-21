@@ -1,0 +1,74 @@
+/* Website Container */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f4f8;
+    padding: 90px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: auto;
+    margin-top: 100px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .form-group label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  /* Buttons */
+  .button-group button {
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    flex: 1; 
+    margin: 0 5px; 
+  }
+  
+  .button-group button:hover {
+    background-color: #0056b3;
+  }
+  .button-group button.clear {
+    background-color: #ff4d4d; 
+  }
+  .button-group button.clear:hover {
+    background-color: #e60000;
+  }
+/* Add Product Font */
+.form-container h2 {
+    font-family: 'Poppins', sans-serif; 
+    color: #000;
+    font-size: 2.5rem; 
+    font-weight: 900; 
+    text-align: center;
+    font-size: bold;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); 
+    letter-spacing: 1; 
+  }
+  
+  
