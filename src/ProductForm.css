@@ -1,74 +1,113 @@
-/* Website Container */
-.form-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: #f0f4f8;
-    padding: 90px;
-    border-radius: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: 400px;
-    margin: auto;
-    margin-top: 100px;
-  }
+/* Heading*/
+h2 {
+  font-family: 'Poppins', sans-serif; 
+  color: #ffffff; 
+  margin-bottom: 20px;
+  font-size: bold;
+  font-weight: 900; 
+  text-align: center;
+  letter-spacing: 1; 
+}
+h3{
+  font-family: 'Poppins', sans-serif; 
+  color: #ffffff; 
+  margin-bottom: 20px;
+  font-size: bold;
+}
+
+/* Input Words  */
+input {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  color: #000;
+  border: 2px solid #ddd; 
+  border-radius: 5px;
+  font-size: 16px;
   
-  .form-group {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 10px;
-    width: 100%;
-  }
-  
-  .form-group label {
-    margin-bottom: 5px;
-    font-weight: bold;
-  }
-  
-  .form-group input {
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  .button-group {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-  }
-  /* Buttons */
-  .button-group button {
-    background-color: #007bff; 
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-    flex: 1; 
-    margin: 0 5px; 
-  }
-  
-  .button-group button:hover {
-    background-color: #0056b3;
-  }
-  .button-group button.clear {
-    background-color: #ff4d4d; 
-  }
-  .button-group button.clear:hover {
-    background-color: #e60000;
-  }
-/* Add Product Font */
-.form-container h2 {
-    font-family: 'Poppins', sans-serif; 
-    color: #000;
-    font-size: 2.5rem; 
-    font-weight: 900; 
-    text-align: center;
-    font-size: bold;
-    margin-bottom: 20px;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); 
-    letter-spacing: 1; 
-  }
-  
-  
+}
+input::placeholder {
+  color: #888;
+  font-style: italic;
+}
+
+/* Form buttons */
+.form-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  padding: 12px 26px;
+  border: none;
+  border-radius: 7px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.save-btn {
+  background-color: black;
+  color: white;
+  transition: 0.3s ease;
+}
+
+.save-btn:hover {
+  background-color: #303030;
+}
+
+.clear-btn {
+  background-color: red;
+  color: white;
+  transition: 0.3s ease;
+  margin: 0 -25px; 
+}
+
+.clear-btn:hover {
+  background-color: #D21312;
+}
+
+/* Forms */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead th {
+  background-color: #78B7D0;
+  color: #fff;
+  padding: 9px;
+  text-align: left;
+  border-bottom: 3px solid #f7f3f3;
+}
+
+tbody td {
+  padding: 10px;
+  background-color: #f5f5f5;
+  color: #000000;
+  border-bottom: 2px solid #ddd; 
+}
+
+/* Edit and Delete Buttons */
+button.edit-btn {
+  background-color: black;
+  color: white;
+  margin-right: 10px;
+  transition: 0.3s ease;
+}
+
+button.edit-btn:hover {
+  background-color: #303030;
+}
+
+button.delete-btn {
+  background-color: #D21312;
+  color: white;
+  transition: 0.3s ease;
+}
+
+button.delete-btn:hover {
+  background-color: #872341;
+}
